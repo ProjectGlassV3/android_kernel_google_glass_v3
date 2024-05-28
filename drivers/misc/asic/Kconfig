@@ -1,0 +1,9 @@
+menu "Kopin ASIC A254 support"
+
+config ASIC_A254
+	tristate "Kopin A254 support"
+	depends on I2C
+	help
+	  Driver support for Kopin A254
+
+endmenu

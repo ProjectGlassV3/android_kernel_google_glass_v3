@@ -1,0 +1,10 @@
+#
+# MCU support
+#
+config ATMEL_APP_I2C
+	tristate "Atmel application i2c driver module"
+	depends on I2C
+	help
+	  Say Y here to enable basic touch reporting functionality.
+
+	  If unsure, say N.

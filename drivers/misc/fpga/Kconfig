@@ -1,0 +1,9 @@
+menu "Lattice FPGA support"
+
+config FPGA_LIFMD6000
+	tristate "Lattice LIF-MD6000 support"
+	depends on I2C
+	help
+	  Driver support for Lattice LIFMD series
+
+endmenu

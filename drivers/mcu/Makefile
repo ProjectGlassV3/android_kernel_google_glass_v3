@@ -1,0 +1,1 @@
+obj-$(CONFIG_ATMEL_APP_I2C) += atmel_app_i2c.o
